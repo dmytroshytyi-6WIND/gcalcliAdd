@@ -7,7 +7,7 @@
 #	$ca q 9:35 meeting with friends
 #		OR
 #	$ca a
-#			this will ask more details about event that is specified by "add" option in gcalci
+#			this will ask more details about event that is specified by "add" option in gcalcli
 
 #	specify your default calendar that you use usually
 #	the name of calendar is displayed in the https://calendar.google.co
