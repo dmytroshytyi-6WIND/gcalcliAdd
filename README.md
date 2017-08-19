@@ -3,13 +3,8 @@ Simple bash script that simplifies daily commands with google calendar cli tool 
 
 -Q: When to use this script?
 
--A: When you have installed google calendar cli (that usually combined with conky to display info).
+-A: When you have installed google calendar cli (https://github.com/insanum/gcalcli) that usually combined with conky (https://github.com/brndnmtthws/conky) to display information.
 
-Links:
-
-Google calendar cli: https://github.com/insanum/gcalcli
-
-Conky: https://github.com/brndnmtthws/conky
 
 Example:
 ![Alt text](https://raw.githubusercontent.com/dmytroshytyi/gcalcliAdd/master/pics/Selection_181.jpg "gcalcli + conky ")
