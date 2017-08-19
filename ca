@@ -22,12 +22,12 @@ key="$1"
 
 case $key in
     q)
-    action='quick --calendar myAgenda'
+    action='quick --calendar cldrName'
     data="${@:2}"
     gcalcli $action "$data"
     ;;
     a)
-    action='--calendar myAgenda add'
+    action='--calendar cldrName add'
     gcalcli $action
     ;;
     esac
