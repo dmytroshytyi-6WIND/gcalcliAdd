@@ -7,6 +7,7 @@ Simple bash script that simplifies daily commands with google calendar cli tool 
 
 Links:
 Google calendar cli: https://github.com/insanum/gcalcli
+
 Conky: https://github.com/brndnmtthws/conky
 
 Example:
