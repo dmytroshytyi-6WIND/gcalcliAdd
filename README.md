@@ -15,7 +15,7 @@ Example:
 
 Example:
 
-- add quick event without gcalcliAdd script:
+- add quick event WITHOUT gcalcliAdd script:
 
 ![Alt text](https://raw.githubusercontent.com/dmytroshytyi/gcalcliAdd/master/pics/Selection_182.jpg "gcalcli raw")
 
