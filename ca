@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#	The purpose of this script is to simplify the adding new events to google calendar
+#	when one have just one important calendar and you do not want to path useless parameters
+#	if you rename this script with name "ca" and will add to PATH the path to folder where it is located, 
+#	the command to add quick event into google calendar from cli looks like this:
+#	$ca q 9:35 meeting with friends
+#		OR
+#	$ca a
+#			this will ask more details about event that is specified by "add" option in gcalci
+
+#	specify your default calendar that you use usually
+#	the name of calendar is displayed in the https://calendar.google.co
+#	in  the section "Calendars->Mouse right click->
+#	->Calendar settings->Calendar Name"
+
+cldrName='myAgenda'
+
+while [[ $# -gt 0 ]]
+do
+key="$1"
+
+case $key in
+    q)
+    action='quick --calendar myAgenda'
+    data="${@:2}"
+    gcalcli $action "$data"
+    ;;
+    a)
+    action='--calendar myAgenda add'
+    gcalcli $action
+    ;;
+    esac
+shift # past argument or value
+done
+
+
