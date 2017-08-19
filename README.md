@@ -15,10 +15,14 @@ Example:
 
 Example:
 
-- without gcalcliAdd script:
+- add quick event without gcalcliAdd script:
 
 ![Alt text](https://raw.githubusercontent.com/dmytroshytyi/gcalcliAdd/master/pics/Selection_182.jpg "gcalcli raw")
 
-- with gcalcliAdd script:
+- add quick event with gcalcliAdd script:
 
-![Alt text](https://raw.githubusercontent.com/dmytroshytyi/gcalcliAdd/master/pics/Selection_183.jpg "gcalcli raw")
+![Alt text](https://raw.githubusercontent.com/dmytroshytyi/gcalcliAdd/master/pics/Selection_183.jpg "gcalcliAdd script")
+
+- add extended event with gcalcliAdd script:
+
+![Alt text](https://raw.githubusercontent.com/dmytroshytyi/gcalcliAdd/master/pics/Selection_185.jpg "gcalcliAdd script")
