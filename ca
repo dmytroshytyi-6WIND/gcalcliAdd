@@ -15,6 +15,7 @@
 #	->Calendar settings->Calendar Name"
 
 cldrName='myAgenda'
+state=0
 
 while [[ $# -gt 0 ]]
 do
@@ -25,10 +26,13 @@ case $key in
     action='quick --calendar cldrName'
     data="${@:2}"
     gcalcli $action "$data"
+    state=1
     ;;
     a)
-    action='--calendar cldrName add'
-    gcalcli $action
+    if [ "$state" == 0 ];then
+        action='--calendar cldrName add'
+        gcalcli $action
+    fi    
     ;;
     esac
 shift # past argument or value
