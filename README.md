@@ -26,3 +26,5 @@ Example:
 - add extended event with gcalcliAdd script:
 
 ![Alt text](https://raw.githubusercontent.com/dmytroshytyi/gcalcliAdd/master/pics/Selection_185.jpg "gcalcliAdd script")
+
+P.S. Do not forget to set permissions (with chmod) to execute the script.
