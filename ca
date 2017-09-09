@@ -1,4 +1,11 @@
 #!/bin/bash
+#
+#author: Dmytro Shytyi
+#email: dmytro@shytyi.net
+#website: https://shytyi.net
+#website: https://dmytro.shytyi.net
+#license: BSD
+#Please feel free to use and modify this, but keep the above information. Thanks!
 
 #	The purpose of this script is to simplify the adding new events to google calendar
 #	when one have just one important calendar and you do not want to path useless parameters
@@ -13,6 +20,8 @@
 #	the name of calendar is displayed in the https://calendar.google.co
 #	in  the section "Calendars->Mouse right click->
 #	->Calendar settings->Calendar Name"
+
+
 
 cldrName='myAgenda'
 state=0
