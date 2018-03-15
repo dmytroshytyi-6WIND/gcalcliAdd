@@ -1,0 +1,46 @@
+/authors: Dmytro Shytyi
+//email: dmytro@shytyi.net
+//website: http://shytyi.net
+//website: http://dmytro.shytyi.net
+//license: BSD
+//Please feel free to use and modify this, but keep the above information. Thanks!
+
+//This is conky conf file that prints the gcalc data on the top right part of the screen as presented in the screenshot.
+
+  1 alignment tr
+  2 background yes
+  3 border_width 2
+  4 cpu_avg_samples 2
+  5 default_color 323232
+  6 default_outline_color white
+  7 #default_shade_color white
+  8 draw_borders yes
+  9 draw_graph_borders yes
+ 10 draw_outline no
+ 11 draw_shades yes
+ 12 use_xft yes
+ 13 xftfont DejaVu Sans Mono:size=9
+ 14 gap_x 30
+ 15 gap_y 80
+ 16 minimum_size 5 5
+ 17 net_avg_samples 2
+ 18 double_buffer yes
+ 19 out_to_console no
+ 20 out_to_stderr no
+ 21 extra_newline no
+ 22 own_window yes
+ 23 own_window_class Conky
+ 24 own_window_type override
+ 25 own_window_transparent no
+ 26 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+ 27 own_window_colour 323232
+ 28 stippled_borders 1
+ 29 update_interval 1.0
+ 30 uppercase no
+ 31 use_spacer none
+ 32 show_graph_scale no
+ 33 show_graph_range no
+ 34 text_buffer_size 8096
+ 35 
+ 36 TEXT
+ 37 ${execpi 300 ~/scripts/gcal.sh}
